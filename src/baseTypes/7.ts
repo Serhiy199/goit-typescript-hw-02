@@ -4,7 +4,7 @@
 */
 
 enum weekDay {
-  Monday = "ACTIVE",
+  Monday = "Monday",
   Inactive = "INACTIVE",
   Banned = "BANNED",
 }
