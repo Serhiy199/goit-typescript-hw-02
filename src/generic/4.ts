@@ -2,11 +2,11 @@
   Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
 */
 
-class Component {
+class Component<T extends IProps> {
   constructor(public props: T) {}
 }
 interface IProps {
-  props: string;
+  title: string;
 }
 class Page extends Component<IProps> {
   pageInfo() {
@@ -14,4 +14,4 @@ class Page extends Component<IProps> {
   }
 }
 
-export {};
+export { IProps, Page };

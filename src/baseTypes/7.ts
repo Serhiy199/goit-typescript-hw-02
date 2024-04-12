@@ -26,3 +26,5 @@ const isWeekend = (day: WeekDay): boolean => {
       return false;
   }
 };
+
+export { WeekDay, isWeekend };

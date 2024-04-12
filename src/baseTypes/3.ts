@@ -1,8 +1,6 @@
 let some: unknown;
 some = "Text";
 let str: string;
-if (typeof some === "string") {
-  str = some;
-}
+str = typeof some === "string" ? some : "";
 
-export {};
+export { some, str };

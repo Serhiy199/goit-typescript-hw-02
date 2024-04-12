@@ -6,3 +6,5 @@
 let union: string | number;
 type Button = "enable" | "disable";
 let literal: Button;
+
+export { union, literal };
